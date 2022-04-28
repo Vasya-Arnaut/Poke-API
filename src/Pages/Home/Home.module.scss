@@ -1,0 +1,67 @@
+.Home {
+    width: 650px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 45px;
+    position: relative;
+    border: 0.5px solid #000000;
+    background: linear-gradient(-20deg, #59f6f9, #b3dbd3, #f4d6db);
+
+    a {
+        text-decoration: none;
+    }
+
+    .Search {
+        text-align: center;
+        padding-top: 40px;
+        border-radius: 10px;
+        font-family: cursive;
+
+        .input {
+            width: 500px;
+            height: 40px;
+            border-right: 0;
+            border: 0;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            font-size: 18px;
+            background-color: #ffffff;
+        }
+
+        .button {
+            height: 42px;
+            border: 0;
+            border-left: 1px solid gray;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            font-size: 18px;
+            background-color: #ffffff;
+            cursor: pointer;
+        }
+
+        .button:hover{
+            opacity: .65;
+            transform: scale(1.05);
+        }
+    }
+
+    .more {
+        width: 60px;
+        height: 30px;
+        font-size: 16px;
+        border: 0;
+        border-top-left-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        cursor: pointer;
+    }
+
+    .more:hover {
+        opacity: .65;
+    }
+}

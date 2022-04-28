@@ -1,0 +1,17 @@
+.cont {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+
+    .cont1 {
+        margin-top: -10px;
+        text-align: start;
+    }
+    .cont2 {
+        margin-top: -10px;
+        text-align: start;
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,32 @@
+.Pok {
+    width: 220px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 30px ;
+    padding: 24px 4px;
+    border: solid 1px grey;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+    background: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+    cursor: pointer;
+
+
+    img {
+        margin-top: 15px;
+        width: 200px;
+        height: 200px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+.Pok:hover{
+    transform: scale(1.05);
+}
